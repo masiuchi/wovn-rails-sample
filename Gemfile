@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# http://stackoverflow.com/questions/16862855/rails-app-fails-on-heroku-no-route-matches-get
+gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+
 # https://devcenter.heroku.com/articles/rails4
 ruby '2.0.0'
 gem 'rails_12factor', group: :production
