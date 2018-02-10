@@ -5,12 +5,15 @@ gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
 gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 
 # https://devcenter.heroku.com/articles/rails4
-ruby '2.0.0'
+ruby '2.5.0'
 gem 'rails_12factor', group: :production
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '~> 4.2.7.1'
+gem 'actionview', '~> 4.2.7.1'
+gem 'activerecord', '~> 4.2.7.1'
+gem 'nokogiri', '~> 1.8.1'
 # Use sqlite3 as the database for Active Record
 # sqlite3
 # Use SCSS for stylesheets
