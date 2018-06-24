@@ -57,3 +57,4 @@ group :development do
 end
 
 gem 'loofah', '~> 2.2.1'
+gem 'sprockets', '~> 3.7.2'
