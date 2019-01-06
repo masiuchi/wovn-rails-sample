@@ -58,4 +58,4 @@ end
 
 gem 'loofah', '~> 2.2.3'
 gem 'rack', '~> 1.6.11'
-
+gem 'ffi', '~> 1.9.24'
