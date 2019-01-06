@@ -10,9 +10,9 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2.7.1'
-gem 'actionview', '~> 4.2.7.1'
-gem 'activerecord', '~> 4.2.7.1'
+gem 'rails', '~> 4.2.11'
+gem 'actionview', '~> 4.2.11'
+gem 'activerecord', '~> 4.2.11'
 gem 'nokogiri', '~> 1.8.1'
 # Use sqlite3 as the database for Active Record
 # sqlite3
@@ -56,4 +56,5 @@ group :development do
   gem 'spring'
 end
 
-gem 'loofah', '~> 2.2.1'
+gem 'loofah', '~> 2.2.3'
+gem 'rack', '~> 1.6.11'
