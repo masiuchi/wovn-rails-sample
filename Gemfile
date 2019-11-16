@@ -7,7 +7,7 @@ gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 # https://devcenter.heroku.com/articles/rails4
 ruby '2.5.0'
 gem 'rails_12factor', group: :production
-gem 'pg'
+gem 'pg', '~> 0.19.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.11'
