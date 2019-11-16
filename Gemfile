@@ -15,7 +15,7 @@ gem 'actionview', '~> 4.2.11'
 gem 'activerecord', '~> 4.2.11'
 gem 'nokogiri', '~> 1.8.1'
 # Use sqlite3 as the database for Active Record
-# sqlite3
+gem "sqlite3", "~> 1.3.6", group: :development
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
