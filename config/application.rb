@@ -22,5 +22,12 @@ module WovnRailsSample
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.wovnrb = {
+      :project_token => 'EXo30h',
+      :default_lang => 'en',
+      # :supported_langs => ['en','ja'],
+      :url_pattern => 'path'
+    }
   end
 end
