@@ -13,7 +13,7 @@ gem 'pg', '~> 0.19.0'
 gem 'rails', '~> 4.2.11'
 gem 'actionview', '~> 4.2.11'
 gem 'activerecord', '~> 4.2.11'
-gem 'nokogiri', '~> 1.10.5'
+gem 'nokogiri', '~> 1.8.1'
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.3.6", group: :development
 # Use SCSS for stylesheets
@@ -60,4 +60,4 @@ gem 'loofah', '~> 2.3.1'
 gem 'rack', '~> 1.6.11'
 gem 'ffi', '~> 1.9.24'
 
-gem 'wovnrb'
+gem 'wovnrb', '~> 2.2.2'
