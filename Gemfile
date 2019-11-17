@@ -60,4 +60,5 @@ gem 'loofah', '~> 2.3.1'
 gem 'rack', '~> 1.6.11'
 gem 'ffi', '~> 1.9.24'
 
-gem 'wovnrb', '~> 2.2.2'
+gem 'wovnrb', git: 'https://github.com/masiuchi/wovnrb.git',
+              branch: 'fix/error-on-rails4'
