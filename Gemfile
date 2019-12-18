@@ -57,7 +57,7 @@ group :development do
 end
 
 gem 'loofah', '~> 2.3.1'
-gem 'rack', '~> 1.6.11'
+gem 'rack', '~> 1.6.12'
 gem 'ffi', '~> 1.9.24'
 
 gem 'wovnrb', git: 'https://github.com/masiuchi/wovnrb.git',
