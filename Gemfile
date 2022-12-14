@@ -56,7 +56,7 @@ group :development do
   gem 'spring'
 end
 
-gem 'loofah', '~> 2.3.1'
+gem 'loofah', '~> 2.19.1'
 gem 'rack', '~> 1.6.11'
 gem 'ffi', '~> 1.9.24'
 
